@@ -8,5 +8,8 @@ import lombok.Data;
 
 @Data
 public class Order{
-
+    private Integer id;
+    private Integer status;
+    private Integer price;
+    private Long createTime;
 }
