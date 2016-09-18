@@ -25,4 +25,11 @@ public class MycatTest {
         orderService.addOrder();
         System.out.println("OK");
     }
+
+    @Test
+    public void addOrderDetailTest(){
+        orderService.addOrderDetail();
+        System.out.println("OK");
+
+    }
 }
